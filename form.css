@@ -1,0 +1,111 @@
+body{
+	margin: 0;
+	padding: 0;
+	min-height: 100vh;
+	background-color: #f8f8f8;
+	color: #333;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Playfair Display', serif;
+
+}
+.container{
+	background-color: #fff;
+	border: 1px solid #ccc;
+	padding: 40px;
+	width: 350px;
+	height: 550px;
+	padding-top: 10px;
+	border-radius: 25px;
+	margin-top: 30px;
+}
+h1{
+	color: #007bff;
+	text-align: center;
+	font-weight: bold;
+}
+label{
+	position: relative;
+	top: -15px;
+	display: block;
+	color: #555;
+	font-size: 18px;
+}
+input{
+	display: block;
+	width: 330px;
+	height: 35px;
+	font-size: 14px;
+	border-radius: 10px;
+	color: #333;
+	font-weight: bold;
+	position: relative;
+	top: -10px;
+	border: 1px solid #ccc;
+}
+button{
+	width: 200px;
+	height: 40px;
+	cursor: pointer;
+	position: relative;
+	top: 90px;
+	left: 70px;
+	background-color: #007bff;
+	color: #fff;
+	font-weight: bold;
+	border-radius: 10px;
+	border: none;
+}
+button:hover{
+	font-weight: bolder;
+	background-color: #0056b3;
+}
+.name{
+	position: relative;
+	top: 15px;
+}
+.mail{
+	position: relative;
+	top: 30px;
+}
+.no{
+	position: relative;
+	top: 45px;
+}
+.pass{
+	position: relative;
+	top: 60px;
+}
+.con{
+	position: relative;
+	top: 75px;
+}
+.input-group.success input{
+	font-size: 12px;
+}
+.input-group .error{
+	color: red;
+	font-size: 12px;
+	position: relative;
+	left: 12px;
+	margin-top: -5px;
+}
+
+
+@media (max-width: 700px) and (min-width: 300px){
+	.container{
+		width: 350px;
+		height: 550px;
+		padding: 20px;
+		padding-top: 15px;
+		margin-top: 20px;	
+	}
+	label{
+		font-size: 18px;
+	}
+	input{
+		width: 300px;
+		height: 30px;
+	}
+}
